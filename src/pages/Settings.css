@@ -1,0 +1,54 @@
+.settings-page {
+    margin-left: 220px;
+    padding: 20px;
+    margin-top: 60px;
+  }
+  
+  .settings-page h2 {
+    margin-bottom: 20px;
+  }
+  
+  .settings-page form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+  }
+  
+  .settings-page form div {
+    margin-bottom: 15px;
+  }
+  
+  .settings-page label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: block;
+  }
+  
+  .settings-page input,
+  .settings-page textarea {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccd6dd;
+    font-size: 1rem;
+    width: 100%;
+  }
+  
+  .settings-page textarea {
+    height: 100px;
+    resize: vertical;
+  }
+  
+  .settings-page button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #1da1f2;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+  .settings-page button:hover {
+    background-color: #0d95e8;
+  }
+  

@@ -1,0 +1,28 @@
+.sidebar {
+  width: 200px;
+  background-color: #f5f8fa;
+  padding: 20px;
+  position: fixed;
+  height: 100%;
+  border-right: 1px solid #e1e8ed;
+  top: 60px;
+}
+
+.sidebar nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.sidebar nav ul li {
+  margin-bottom: 15px;
+}
+
+.sidebar nav ul li a {
+  text-decoration: none;
+  color: #1da1f2;
+  font-weight: bold;
+}
+
+.sidebar nav ul li a:hover {
+  text-decoration: underline;
+}

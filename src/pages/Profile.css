@@ -1,0 +1,24 @@
+.profile-page {
+  margin-left: 220px;
+  padding: 20px;
+  margin-top: 60px;
+}
+
+.profile-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.profile-picture {
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.profile-feed .tweet {
+  background-color: white;
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}

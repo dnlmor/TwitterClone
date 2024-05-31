@@ -1,0 +1,58 @@
+.tweet-list {
+    margin: 20px 0;
+  }
+  
+  .tweet {
+    background-color: white;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  }
+  
+  .tweet h3 {
+    margin: 0 0 10px;
+    font-size: 1.2rem;
+    color: #333;
+  }
+  
+  .tweet p {
+    margin: 0 0 10px;
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  .tweet img {
+    max-width: 100%;
+    border-radius: 5px;
+    margin-top: 10px;
+  }
+  
+  .tweet-actions {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+  
+  .tweet-actions button {
+    background: none;
+    border: none;
+    color: #1da1f2;
+    cursor: pointer;
+    font-size: 0.9rem;
+  }
+  
+  .tweet-actions button:hover {
+    text-decoration: underline;
+  }
+  
+  .tweet-actions .likes {
+    display: flex;
+    align-items: center;
+  }
+  
+  .tweet-actions .likes span {
+    margin-left: 5px;
+    color: #555;
+  }
+  

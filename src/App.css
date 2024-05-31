@@ -1,0 +1,75 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #e6ecf0;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #1da1f2;
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  header h1 {
+    margin: 0;
+    font-size: 1.5rem;
+  }
+  
+  header nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 15px;
+  }
+  
+  header nav a:hover {
+    text-decoration: underline;
+  }
+  
+  .tweet-list {
+    margin: 20px;
+  }
+  
+  .tweet {
+    background-color: white;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  }
+  
+  .tweet h3 {
+    margin: 0 0 10px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+  }
+  
+  textarea {
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccd6dd;
+    font-size: 1rem;
+  }
+  
+  button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #1da1f2;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0d95e8;
+  }
+  
